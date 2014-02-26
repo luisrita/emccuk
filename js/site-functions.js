@@ -24,14 +24,22 @@ $(document).ready(function(){
 	});
 
 // Hover styles on cufon
-	$('#suckerfishnav li li').hover(function(){ 
-    $('a', this).css({color : '#ffffff', 'background-color' : '#fa9f08'}); 
-    Cufon.refresh('#suckerfishnav li li a'); 
+	$('#suckerfishnav li a').hover(function(){ 
+    $(this).css( 'color', '#fa9f08' ); 
+    //Cufon.refresh('#suckerfishnav li li a'); 
 
 	 },function(){ // this is the mouse out 
 
-    $('a', this).css({color : '#fa9f08', 'background-color' : '#ffffff'}); 
-    Cufon.refresh('#suckerfishnav li li a'); 
+    $(this).css( 'color', '#1d4d89' );
+	}); 
+
+	$('#suckerfishnav li li a').hover(function(){ 
+    $(this).css({color : '#ffffff', 'background-color' : '#fa9f08'}); 
+    //Cufon.refresh('#suckerfishnav li li a'); 
+
+	 },function(){ // this is the mouse out 
+
+    $(this).css({color : '#fa9f08', 'background-color' : '#ffffff'});
 	}); 
 
 
