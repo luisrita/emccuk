@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body
+{ font-size: 14px; }
+
+h1
+{ font-size: 21px; }
+
+h2
+{ font-size: 17px; }
+
+h3
+{ font-size: 15px; }
+
+.footer
+{ font-size: 10px; }
+
+p.intro
+{ font-size: 16px; }
+
+.loginBox
+ {font-size: 11px; }
+
+form.loginBox input[type='text']
+{ font-size: 11px; }
+
+.navi a:link, .navi a:visited, .navi a:active
+{ font-size: 17px; }
+
+.newsHeader
+{ font-size: 19px; }
+
+.newsStory
+{ font-size: 12px; }
+
+.newsStoryHeader
+{ font-size: 13px; }
+
+.picture
+{ font-size: 12px; }
+
+.poll li
+{ font-size: 11px; }
+
+form.poll
+{ font-size: 12px; }
+
+form.poll input[type='submit']
+{ font-size: 11px; }
+
+.pollHeader
+{ font-size: 13px; }
+
+.stories
+{ font-size: 12px; }
+
+.storiesHeader, .storiesFooter
+{ font-size: 16px; }
+
+.subnavi a:link, .subnavi a:visited, .subnavi a:active
+{ font-size: 13px; }
+
+.subsubnavi a:link, .subsubnavi a:visited, .subsubnavi a:active
+{ font-size: 12px; }

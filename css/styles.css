@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+/*
+orange #fa9f08
+blue #053a7d
+grey #757575
+*/
+
+body
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #757575;
+}
+
+
+
+h1
+{
+	color: #fa9f08;
+	margin: 0px 0px 10px 0px;
+}
+
+h2
+{
+	color: #fa9f08;
+	margin: 20px 0px 0px 0px;
+}
+
+h3
+{
+	color: #053a7d;
+	margin: 5px 0px 0px 0px;
+}
+
+h4
+{
+	color: #053a7d;
+	margin: 10px 0px 0px 0px;
+}
+
+.entry-content h5{font-size:1em; font-weight:bold; margin:2.30775em 0 0.76925em;}
+ul
+{
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	line-height: 1.4;
+}
+
+ul li
+{
+	padding: 0px 0px 0px 15px;
+	margin: 0px;
+	list-style: url(../images/list-bullet.gif);
+	list-style-position: inside;
+}
+
+p
+{
+	margin: 0px 0px 15px 0px;
+}
+
+
+
+a:link, a:visited, a:active
+{
+	color: #053a7d;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #fa9f08;
+}
+
+.blue
+{
+	color: #053a7d;
+}
+
+.footer
+{
+	font-family: arial;
+	color: #fa9f08;	
+}
+
+.footerNavi a:link, .footerNavi a:visited, .footerNavi a:active
+{
+	color: #757575;
+	padding-right: 10px;
+	border-right: 1px solid #fa9f08;
+	margin-right: 3px;
+}
+
+.footer a:hover
+{
+	color: #053a7d;
+}
+
+p.intro
+{
+	color: #053a7d;
+}
+
+form.loginBox input[type='text'], form.loginBox input[type='password']
+{
+	width: 118px;
+	border: 0px;
+	padding: 2px 3px;
+	color: #fa9f08;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 5px;
+}
+
+.navi a:link, .navi a:visited, .navi a:active
+{
+	font-weight: bold;
+	color: #053a7d;
+	font-style: italic;
+}
+
+.navi a.active:link, .navi a.active:visited, .navi a.active:active
+{
+	color: #fa9f08;
+}
+
+.newsHeader
+{
+	font-weight: bold;
+	color: #ffffff;
+	font-style: italic;
+}
+
+.newsStory
+{
+	color: #ffffff;
+}
+
+.newsStory a:link, .newsStory a:visited, .newsStory a:active
+{
+	color: #fa9f08;
+}
+
+.newsStoryHeader
+{
+	color: #fa9f08;
+	font-weight: bold;
+}
+
+.orange
+{
+	color: #fa9f08;	
+}
+
+.picture
+{
+	color: #999999;
+}
+
+.poll
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.poll ul
+{
+	margin: 0px;
+}
+
+.poll li
+{
+	list-style-image: url(../images/list-bullet-orange.gif);
+	color: #053a7d;
+	margin: 5px 0px;
+	vertical-align: bottom;
+}
+
+form.poll 
+{
+	padding: 5px 0px;
+	border-top: 1px solid #053a7d;
+	border-bottom: 1px solid #053a7d;
+	margin-bottom: 2px;
+}
+
+form.poll input[type='submit']
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: block;
+	border: 0px;
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	color: #fa9f08;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+.pollHeader
+{
+	text-transform: uppercase;
+	color: #053a7d;
+}
+
+.stories
+{
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.3;
+}
+
+.storiesHeader, .storiesFooter
+{
+	font-weight: bold;
+	color: #053a7d;
+	text-transform: uppercase;
+	line-height: 0.8px;
+}
+
+.subnavi a:link, .subnavi a:visited, .subnavi a:active
+{
+	font-weight: bold;
+	color: #fa9f08;
+}
+
+.subnavi a:hover, .subnavi a.active:link, .subnavi a.active:visited, .subnavi a.active:active
+{
+	color: #053a7d;
+}
+
+.subsubnavi a:link, .subsubnavi a:visited, .subsubnavi a:active
+{
+	font-weight: bold;
+	color: #fa9f08;
+	line-height: 1.5;
+}
+
+.subsubnavi a:hover, .subsubnavi a.active:link, .subsubnavi a.active:visited, .subsubnavi a.active:active
+{
+	color: #053a7d;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+.alignleft {float:left; }
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+.wp-caption {
+text-align: center;
+padding-top: 10px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.wp-caption img {
+margin: 0;
+padding: 0;
+border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+font-size: 10px;
+line-height: 17px;
+padding: 0 4px 10px;
+margin: 0;
+}
+
+html {
+     overflow: -moz-scrollbars-vertical;
+     overflow: scroll;
+}

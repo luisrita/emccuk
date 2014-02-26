@@ -1,0 +1,354 @@
+@charset "utf-8";
+
+/*
+orange #fa9f08
+blue #053a7d
+*/
+
+html 
+{
+	overflow: -moz-scrollbars-vertical;
+}
+
+body
+{
+	background: url(../images/background.gif) top center repeat-y;
+	margin: 15px 0px 0px 0px;
+}
+
+div
+{
+	position: relative;
+}
+
+div.accreditation
+{
+	position: absolute;
+	top: 12px;
+	right: 30px;
+}
+
+div.accreditation img
+{
+	margin-left: 15px;
+}
+
+div.badge
+{
+	float: left;
+	width: 184px;
+	height: 64px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+.textfield
+{
+  margin-top:10px;
+  width: 117px;
+  font-size: 12pt;
+  color: #000000;
+}
+
+div.badgeBanner
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+	width: 730px;
+	height: 200px;
+	background: red;
+	display: none;
+}
+
+div.badges
+{
+	float: left;
+	width: 184px;
+}
+
+div.banner
+{
+	float: left;
+	width: 730px;
+	height: 200px;
+	margin-right: 4px;
+	margin-bottom: 17px;
+	overflow: hidden;
+}
+
+div.bannerInner1, div.bannerInner2
+{
+	position: absolute;
+	top: 0px;
+	display: none;
+	z-index: 3;
+}
+
+div.body
+{
+	width: 980px;
+	background: url(../images/background-body.gif) top center repeat-y;
+	margin: 0px auto 20px auto;
+}
+
+div.colLeft
+{
+	float: left;
+	width: 192px;
+	margin-right: 25px;
+}
+
+div.colMain
+{
+	float: left;
+	width: 494px;
+	min-height: 500px;
+	margin-right: 25px;
+}
+
+div.colRight
+{
+	float: left;
+	width: 184px;
+}
+
+div.content
+{
+	padding: 0px 30px;
+}
+
+div.footer
+{
+	width: 920px;
+	padding: 0px 30px 20px 30px;
+	background: url(../images/background-footer.gif) bottom center no-repeat;
+	clear: both;
+}
+
+div.footerNavi
+{
+	padding: 65px 0px 0px 130px;
+	border-top: 1px solid #fa9f08;	
+}
+
+div.header
+{
+	top: -1px;
+	width: 920px;
+	padding: 35px 30px 0px 30px;
+	background: url(../images/background-header.gif) top center no-repeat;
+	margin-bottom: 7px;
+}
+
+div.loginBox
+{
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	z-index: 3;
+	width: 124px;
+	height: 85px;
+	padding: 10px 5px 5px 5px;
+	background: url(../images/background-loginBox.gif);
+}
+
+div.more
+{
+	text-align: right;
+}
+
+div.navi
+{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fa9f08;
+	text-align: right;
+}
+
+div.naviItem
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+div.news
+{
+	padding: 7px 13px;
+	background: #032e8d url(../images/background-latestNews.jpg) top left no-repeat;
+}
+
+div.newsHeader
+{
+	height: 52px;
+}
+
+div.newsStory
+{
+	margin-bottom: 15px;
+}
+
+div.picture
+{
+	float: right;
+	margin: 0px 0px 15px 15px;
+	text-align: right;
+}
+
+div.picture img
+{
+	display: block;
+	border: 1px solid #999999;
+}
+
+div.poll
+{
+	position: absolute;
+	bottom: 125px;
+	left: 30px;
+	width: 184px;
+	height: 81px;
+	vertical-align: bottom;
+}
+
+div.pollHeader
+{
+	margin-bottom: 3px;
+}
+
+div.resources
+{
+	position: absolute;
+	bottom: 108px;
+	right: 30px;
+	width: 184px;
+	height: 81px;
+}
+
+div.social
+{
+	position: absolute;
+	top: 52px;
+}
+
+div.socialIcon
+{
+	float: left;
+	margin-right: 15px;
+}
+
+div.storiesFooter
+{
+	height: 41px;
+	padding: 15px 100px 0px 0px;
+	text-align: right;
+	background: url(../images/quote-close.gif) top right no-repeat;
+	margin-top: 10px;
+	line-height: 0.8;
+}
+
+div.storiesHeader
+{
+	height: 41px;
+	padding: 15px 0px 0px 100px;
+	background: url(../images/quote-open.gif) top left no-repeat;
+	margin-bottom: 10px;
+	line-height: 1.0;
+}
+
+div.strap
+{
+	height: 64px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #fa9f08;
+	margin-bottom: 17px;
+}
+
+div.strap img
+{
+	float: left;
+	margin-right: 4px;
+}
+
+div.subnavi
+{
+	position: absolute;
+	display: block;
+	top: 75px;
+	right: 30px;
+	width: 650px;
+	text-align: right;
+}
+
+div.subnaviBlock
+{
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+div.subsubnavi
+{
+	text-align: right;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #053a7d;
+	margin-bottom: 15px;
+}
+
+div.tab
+{
+	display: inline;
+	z-index: 5;
+	cursor: pointer;
+}
+
+div.tabs
+{
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+
+#wp_quotes
+{
+	
+	font-size: 12px;
+	text-align: left;
+	line-height:17px;
+	font-family: helvetica;
+	font-style: italic;
+}
+
+#wp_quotes div.wp_quotes_quote
+{
+}
+
+#wp_quotes div.wp_quotes_author
+{
+	
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	color: #053a7d;
+}
+
+div.wp_quotepage
+{
+	font-size: 11px;
+	width: 80%;
+	margin-left: 40px;
+}
+
+div.wp_quotepage_quote
+{
+}
+
+div.wp_quotepage_author
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #1AB7EA;
+}
+
