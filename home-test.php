@@ -47,7 +47,7 @@ function getUrl(){
 ?>
 <div class="header">
   <div class="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url');?>/wp-content/themes/emcc/images/emcc-uk.gif" width="162" height="101" alt="EMCC UK" border="0"  /></a></div>
-  <div class="navi">
+  <div class="navi home-test">
   <?php if (function_exists('pixopoint_menu')) {pixopoint_menu();} ?>
   </div>
   <div class="tabs">

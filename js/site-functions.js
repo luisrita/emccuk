@@ -34,7 +34,8 @@ $(document).ready(function(){
 	}); 
 
 	$('#suckerfishnav li li a').hover(function(){ 
-    $(this).css({color : '#ffffff', 'background-color' : '#fa9f08'}); 
+    $(this).css({color : '#ffffff', 'background-color' : '#fa9f08'});
+    $(this).siblings(".children").hide(); 
     //Cufon.refresh('#suckerfishnav li li a'); 
 
 	 },function(){ // this is the mouse out 
